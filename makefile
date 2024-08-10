@@ -1,8 +1,5 @@
 build:
-	python3 -m pkgs.core
-
-black:
-	black -l 79 pkgs/core.py
+	jupyter lab
 
 clean:
 	find . -type d -name __pycache__ | xargs rm -rf
@@ -14,4 +11,4 @@ ready:
 	pip install -r requirements.txt; \
 	deactivate
 
-.PHONY: build black clean ready
+.PHONY: build clean ready
