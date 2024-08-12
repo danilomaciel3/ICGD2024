@@ -160,3 +160,14 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# (La)?TeX files
+ltex/main.aux
+ltex/main.bbl
+ltex/main.blg
+ltex/main.log
+ltex/main.nav
+ltex/main.out
+ltex/main.pdf
+ltex/main.snm
+ltex/main.toc
